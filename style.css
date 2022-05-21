@@ -1,42 +1,45 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    color: rgb(0, 64, 255)
+    color:cadetblue
 }
+
 body {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(83, 232, 215);
-
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 }
-.container {
-    padding:15px;
-    display: flex;
-    flex-direction:column;
-    align-content: center;
-    background-color:rgb(0, 64, 255);
-    width: 25%;
-    border-radius: 15px;
-    border: 10px rgb(111, 163, 63);
-    margin: 15px;
-}
-input {
-    padding:15px;
-    margin: 10px;
-    border-radius: 15px;
-    border:transparent;
-    background-color: rgb(255, 254, 255);
-    text-align: center;
 
-
+.container{
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-content: center;
+background-color: cadetblue;
+width: 25%;
+border-radius: 15px;
+border: 10px white;
+margin: 15px;
+text-align: center;
 }
-.resposta {
-    color:rgb(99, 178, 34);
-    padding:15px;
-}
-.error_cep{
-    color:rgb(106, 0, 255);
 
+input{
+padding: 15px;
+margin: 10px;
+border-radius: 15px;
+border: transparent;
+background-color: cornsilk;
+}
+
+.resposta{
+color: cornsilk;
+padding: 15px;
+}
+
+.erro_cep{
+color: cornsilk;
+padding: 15px;
+background-color: cadetblue;
+border-radius: 15px;
 }
